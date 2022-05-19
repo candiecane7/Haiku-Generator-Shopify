@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haiku Generator AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header class="flex justify-center">
+        <h1 class="font-medium text-5xl mt-0 mb-2">Haiku Generator with AI</h1>
+    </header>
+    <main>
+        <div class="w-full max-w-sm mx-auto" id="input-container">
+            <textarea id="text-input" class="h-40 w-full border rounded-xl overflow-hidden resize-none focus:border-red-500 ring-1 ring-transparent focus:ring-red-500 focus:outline-none text-black p-2 transition ease-in-out" placeholder="Write your haiku subject here"></textarea>
+            <div class="flex justify-end">
+              <button class="btn rounded py-1 px-2 text-white bg-red-500 hover:bg-red-700">Submit</button>
+            </div>
+        </div>
+        <div class="mx-auto border rounded text-center" id="response-container">
+            <h2 class="font-bold text-2xl">Haikus</h2>
+            <div class="response-holder"></div>
+        </div>
+    </main>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

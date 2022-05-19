@@ -1,0 +1,16 @@
+#input-container {
+    margin-top: 130px;
+
+}
+.responses {
+    margin-top: 20px
+}
+#text-box {
+    width: 400px;
+    height: 300px;
+}
+#response-container {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
